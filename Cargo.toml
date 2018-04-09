@@ -1,0 +1,12 @@
+[package]
+name = "vst-host"
+version = "0.1.0"
+authors = ["Rob Saunders <rob@wearebrandnew.com>"]
+
+[dependencies]
+vst = { git = "https://github.com/rust-dsp/rust-vst" }
+colored = "1.5"
+
+[[bin]]
+name = "vst-host"
+doc = false
